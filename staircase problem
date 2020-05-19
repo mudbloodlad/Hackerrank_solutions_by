@@ -1,0 +1,10 @@
+#this is the my solution for staircase problem
+space=n-1
+    for i in range(n):
+        for j in range(n):
+            if space>j:
+                print(" ",end="")
+            else:
+                print("#",end="")
+        print(" ")
+        space=space -1
